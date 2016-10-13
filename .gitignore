@@ -2,3 +2,7 @@ protoc_middleman
 
 add_person_cpp
 list_people_cpp
+
+GPBProtocolBuffers.o
+add_person_objc
+list_people_objc

@@ -10,6 +10,7 @@ void PromptForAddress(tutorial::Person* person)
     cout << "Enter person ID number: ";
     int id;
     cin >> id;
+    person->set_id(id);
     cin.ignore(256, '\n');
 
     cout << "Enter name: ";
