@@ -28,6 +28,12 @@ Person* PromptForAddress()
         person.name = name;
     }
 
+    printf("Enter email address (blank for none): ");
+    NSString *email = ReadString();
+    if (email) {
+        person.email = email;
+    }
+
     while (true) {
         printf("Enter a phone number (or leave blank to finish): ");
         NSString *number = ReadString();

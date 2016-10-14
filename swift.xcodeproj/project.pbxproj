@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D527D41DB1846C002BFB68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D527D31DB1846C002BFB68 /* main.swift */; };
+		27D528191DB18C95002BFB68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528181DB18C95002BFB68 /* main.swift */; };
+		27D5281E1DB18D0C002BFB68 /* addressbook.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D527D81DB184A8002BFB68 /* addressbook.pb.swift */; };
+		27D5286E1DB18F3D002BFB68 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528221DB18F36002BFB68 /* api.pb.swift */; };
+		27D5286F1DB18F3D002BFB68 /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528231DB18F36002BFB68 /* duration.pb.swift */; };
+		27D528701DB18F3D002BFB68 /* empty.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528241DB18F36002BFB68 /* empty.pb.swift */; };
+		27D528711DB18F3D002BFB68 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528251DB18F36002BFB68 /* field_mask.pb.swift */; };
+		27D528721DB18F3D002BFB68 /* FieldTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528261DB18F36002BFB68 /* FieldTag.swift */; };
+		27D528731DB18F3D002BFB68 /* Google_Protobuf_Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528271DB18F36002BFB68 /* Google_Protobuf_Any.swift */; };
+		27D528741DB18F3D002BFB68 /* Google_Protobuf_Duration_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528281DB18F36002BFB68 /* Google_Protobuf_Duration_Extensions.swift */; };
+		27D528751DB18F3D002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528291DB18F36002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift */; };
+		27D528761DB18F3D002BFB68 /* Google_Protobuf_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282A1DB18F36002BFB68 /* Google_Protobuf_Struct.swift */; };
+		27D528771DB18F3D002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282B1DB18F36002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift */; };
+		27D528781DB18F3D002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282C1DB18F36002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift */; };
+		27D528791DB18F3D002BFB68 /* ProtobufBinaryDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282D1DB18F36002BFB68 /* ProtobufBinaryDecoding.swift */; };
+		27D5287A1DB18F3D002BFB68 /* ProtobufBinaryEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282E1DB18F36002BFB68 /* ProtobufBinaryEncoding.swift */; };
+		27D5287B1DB18F3D002BFB68 /* ProtobufBinarySizeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282F1DB18F36002BFB68 /* ProtobufBinarySizeVisitor.swift */; };
+		27D5287C1DB18F3D002BFB68 /* ProtobufBinaryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528301DB18F36002BFB68 /* ProtobufBinaryTypes.swift */; };
+		27D5287D1DB18F3D002BFB68 /* ProtobufDebugDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528311DB18F36002BFB68 /* ProtobufDebugDescription.swift */; };
+		27D5287E1DB18F3D002BFB68 /* ProtobufEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528321DB18F36002BFB68 /* ProtobufEnum.swift */; };
+		27D5287F1DB18F3D002BFB68 /* ProtobufError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528331DB18F36002BFB68 /* ProtobufError.swift */; };
+		27D528801DB18F3D002BFB68 /* ProtobufExtensionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528341DB18F36002BFB68 /* ProtobufExtensionFields.swift */; };
+		27D528811DB18F3D002BFB68 /* ProtobufExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528351DB18F36002BFB68 /* ProtobufExtensions.swift */; };
+		27D528821DB18F3D002BFB68 /* ProtobufFieldDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528361DB18F36002BFB68 /* ProtobufFieldDecoder.swift */; };
+		27D528831DB18F3D002BFB68 /* ProtobufHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528371DB18F36002BFB68 /* ProtobufHash.swift */; };
+		27D528841DB18F3D002BFB68 /* ProtobufJSONDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528381DB18F36002BFB68 /* ProtobufJSONDecoding.swift */; };
+		27D528851DB18F3D002BFB68 /* ProtobufJSONEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528391DB18F36002BFB68 /* ProtobufJSONEncoding.swift */; };
+		27D528861DB18F3D002BFB68 /* ProtobufJSONTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283A1DB18F36002BFB68 /* ProtobufJSONTypes.swift */; };
+		27D528871DB18F3D002BFB68 /* ProtobufMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283B1DB18F36002BFB68 /* ProtobufMessage.swift */; };
+		27D528881DB18F3D002BFB68 /* ProtobufMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283C1DB18F36002BFB68 /* ProtobufMirror.swift */; };
+		27D528891DB18F3D002BFB68 /* ProtobufOneof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283D1DB18F36002BFB68 /* ProtobufOneof.swift */; };
+		27D5288A1DB18F3D002BFB68 /* ProtobufTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283E1DB18F36002BFB68 /* ProtobufTraversal.swift */; };
+		27D5288B1DB18F3D002BFB68 /* ProtobufTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283F1DB18F36002BFB68 /* ProtobufTypes.swift */; };
+		27D5288C1DB18F3D002BFB68 /* ProtobufUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528401DB18F36002BFB68 /* ProtobufUnknown.swift */; };
+		27D5288D1DB18F3D002BFB68 /* source_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528411DB18F36002BFB68 /* source_context.pb.swift */; };
+		27D5288E1DB18F3D002BFB68 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528421DB18F36002BFB68 /* timestamp.pb.swift */; };
+		27D5288F1DB18F3D002BFB68 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528431DB18F36002BFB68 /* type.pb.swift */; };
+		27D528901DB18F3D002BFB68 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528441DB18F36002BFB68 /* Varint.swift */; };
+		27D528911DB18F3D002BFB68 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528451DB18F36002BFB68 /* WireFormat.swift */; };
+		27D528921DB18F3D002BFB68 /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528461DB18F36002BFB68 /* wrappers.pb.swift */; };
+		27D528931DB18F3D002BFB68 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528471DB18F36002BFB68 /* ZigZag.swift */; };
+		27D528941DB194A0002BFB68 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528221DB18F36002BFB68 /* api.pb.swift */; };
+		27D528951DB194A0002BFB68 /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528231DB18F36002BFB68 /* duration.pb.swift */; };
+		27D528961DB194A0002BFB68 /* empty.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528241DB18F36002BFB68 /* empty.pb.swift */; };
+		27D528971DB194A0002BFB68 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528251DB18F36002BFB68 /* field_mask.pb.swift */; };
+		27D528981DB194A0002BFB68 /* FieldTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528261DB18F36002BFB68 /* FieldTag.swift */; };
+		27D528991DB194A0002BFB68 /* Google_Protobuf_Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528271DB18F36002BFB68 /* Google_Protobuf_Any.swift */; };
+		27D5289A1DB194A0002BFB68 /* Google_Protobuf_Duration_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528281DB18F36002BFB68 /* Google_Protobuf_Duration_Extensions.swift */; };
+		27D5289B1DB194A0002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528291DB18F36002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift */; };
+		27D5289C1DB194A0002BFB68 /* Google_Protobuf_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282A1DB18F36002BFB68 /* Google_Protobuf_Struct.swift */; };
+		27D5289D1DB194A0002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282B1DB18F36002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift */; };
+		27D5289E1DB194A0002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282C1DB18F36002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift */; };
+		27D5289F1DB194A0002BFB68 /* ProtobufBinaryDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282D1DB18F36002BFB68 /* ProtobufBinaryDecoding.swift */; };
+		27D528A01DB194A0002BFB68 /* ProtobufBinaryEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282E1DB18F36002BFB68 /* ProtobufBinaryEncoding.swift */; };
+		27D528A11DB194A0002BFB68 /* ProtobufBinarySizeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5282F1DB18F36002BFB68 /* ProtobufBinarySizeVisitor.swift */; };
+		27D528A21DB194A0002BFB68 /* ProtobufBinaryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528301DB18F36002BFB68 /* ProtobufBinaryTypes.swift */; };
+		27D528A31DB194A0002BFB68 /* ProtobufDebugDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528311DB18F36002BFB68 /* ProtobufDebugDescription.swift */; };
+		27D528A41DB194A0002BFB68 /* ProtobufEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528321DB18F36002BFB68 /* ProtobufEnum.swift */; };
+		27D528A51DB194A0002BFB68 /* ProtobufError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528331DB18F36002BFB68 /* ProtobufError.swift */; };
+		27D528A61DB194A0002BFB68 /* ProtobufExtensionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528341DB18F36002BFB68 /* ProtobufExtensionFields.swift */; };
+		27D528A71DB194A0002BFB68 /* ProtobufExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528351DB18F36002BFB68 /* ProtobufExtensions.swift */; };
+		27D528A81DB194A0002BFB68 /* ProtobufFieldDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528361DB18F36002BFB68 /* ProtobufFieldDecoder.swift */; };
+		27D528A91DB194A0002BFB68 /* ProtobufHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528371DB18F36002BFB68 /* ProtobufHash.swift */; };
+		27D528AA1DB194A0002BFB68 /* ProtobufJSONDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528381DB18F36002BFB68 /* ProtobufJSONDecoding.swift */; };
+		27D528AB1DB194A0002BFB68 /* ProtobufJSONEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528391DB18F36002BFB68 /* ProtobufJSONEncoding.swift */; };
+		27D528AC1DB194A0002BFB68 /* ProtobufJSONTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283A1DB18F36002BFB68 /* ProtobufJSONTypes.swift */; };
+		27D528AD1DB194A0002BFB68 /* ProtobufMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283B1DB18F36002BFB68 /* ProtobufMessage.swift */; };
+		27D528AE1DB194A0002BFB68 /* ProtobufMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283C1DB18F36002BFB68 /* ProtobufMirror.swift */; };
+		27D528AF1DB194A0002BFB68 /* ProtobufOneof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283D1DB18F36002BFB68 /* ProtobufOneof.swift */; };
+		27D528B01DB194A0002BFB68 /* ProtobufTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283E1DB18F36002BFB68 /* ProtobufTraversal.swift */; };
+		27D528B11DB194A0002BFB68 /* ProtobufTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5283F1DB18F36002BFB68 /* ProtobufTypes.swift */; };
+		27D528B21DB194A0002BFB68 /* ProtobufUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528401DB18F36002BFB68 /* ProtobufUnknown.swift */; };
+		27D528B31DB194A0002BFB68 /* source_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528411DB18F36002BFB68 /* source_context.pb.swift */; };
+		27D528B41DB194A0002BFB68 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528421DB18F36002BFB68 /* timestamp.pb.swift */; };
+		27D528B51DB194A0002BFB68 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528431DB18F36002BFB68 /* type.pb.swift */; };
+		27D528B61DB194A0002BFB68 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528441DB18F36002BFB68 /* Varint.swift */; };
+		27D528B71DB194A0002BFB68 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528451DB18F36002BFB68 /* WireFormat.swift */; };
+		27D528B81DB194A0002BFB68 /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528461DB18F36002BFB68 /* wrappers.pb.swift */; };
+		27D528B91DB194A0002BFB68 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D528471DB18F36002BFB68 /* ZigZag.swift */; };
+		27D528BA1DB194A3002BFB68 /* addressbook.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D527D81DB184A8002BFB68 /* addressbook.pb.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27D527CF1DB1846C002BFB68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		27D528141DB18C95002BFB68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27D527D11DB1846C002BFB68 /* add_person_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = add_person_swift; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D527D31DB1846C002BFB68 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		27D527D81DB184A8002BFB68 /* addressbook.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addressbook.pb.swift; sourceTree = "<group>"; };
+		27D528101DB188C0002BFB68 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = System/Library/PrivateFrameworks/Swift/libswiftCore.tbd; sourceTree = SDKROOT; };
+		27D528161DB18C95002BFB68 /* list_people_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = list_people_swift; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D528181DB18C95002BFB68 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		27D528221DB18F36002BFB68 /* api.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.pb.swift; sourceTree = "<group>"; };
+		27D528231DB18F36002BFB68 /* duration.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = duration.pb.swift; sourceTree = "<group>"; };
+		27D528241DB18F36002BFB68 /* empty.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = empty.pb.swift; sourceTree = "<group>"; };
+		27D528251DB18F36002BFB68 /* field_mask.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = field_mask.pb.swift; sourceTree = "<group>"; };
+		27D528261DB18F36002BFB68 /* FieldTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTag.swift; sourceTree = "<group>"; };
+		27D528271DB18F36002BFB68 /* Google_Protobuf_Any.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_Protobuf_Any.swift; sourceTree = "<group>"; };
+		27D528281DB18F36002BFB68 /* Google_Protobuf_Duration_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_Protobuf_Duration_Extensions.swift; sourceTree = "<group>"; };
+		27D528291DB18F36002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_Protobuf_FieldMask_Extensions.swift; sourceTree = "<group>"; };
+		27D5282A1DB18F36002BFB68 /* Google_Protobuf_Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_Protobuf_Struct.swift; sourceTree = "<group>"; };
+		27D5282B1DB18F36002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_Protobuf_Timestamp_Extensions.swift; sourceTree = "<group>"; };
+		27D5282C1DB18F36002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Wrappers+Extensions.swift"; sourceTree = "<group>"; };
+		27D5282D1DB18F36002BFB68 /* ProtobufBinaryDecoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufBinaryDecoding.swift; sourceTree = "<group>"; };
+		27D5282E1DB18F36002BFB68 /* ProtobufBinaryEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufBinaryEncoding.swift; sourceTree = "<group>"; };
+		27D5282F1DB18F36002BFB68 /* ProtobufBinarySizeVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufBinarySizeVisitor.swift; sourceTree = "<group>"; };
+		27D528301DB18F36002BFB68 /* ProtobufBinaryTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufBinaryTypes.swift; sourceTree = "<group>"; };
+		27D528311DB18F36002BFB68 /* ProtobufDebugDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufDebugDescription.swift; sourceTree = "<group>"; };
+		27D528321DB18F36002BFB68 /* ProtobufEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufEnum.swift; sourceTree = "<group>"; };
+		27D528331DB18F36002BFB68 /* ProtobufError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufError.swift; sourceTree = "<group>"; };
+		27D528341DB18F36002BFB68 /* ProtobufExtensionFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufExtensionFields.swift; sourceTree = "<group>"; };
+		27D528351DB18F36002BFB68 /* ProtobufExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufExtensions.swift; sourceTree = "<group>"; };
+		27D528361DB18F36002BFB68 /* ProtobufFieldDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufFieldDecoder.swift; sourceTree = "<group>"; };
+		27D528371DB18F36002BFB68 /* ProtobufHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufHash.swift; sourceTree = "<group>"; };
+		27D528381DB18F36002BFB68 /* ProtobufJSONDecoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufJSONDecoding.swift; sourceTree = "<group>"; };
+		27D528391DB18F36002BFB68 /* ProtobufJSONEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufJSONEncoding.swift; sourceTree = "<group>"; };
+		27D5283A1DB18F36002BFB68 /* ProtobufJSONTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufJSONTypes.swift; sourceTree = "<group>"; };
+		27D5283B1DB18F36002BFB68 /* ProtobufMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufMessage.swift; sourceTree = "<group>"; };
+		27D5283C1DB18F36002BFB68 /* ProtobufMirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufMirror.swift; sourceTree = "<group>"; };
+		27D5283D1DB18F36002BFB68 /* ProtobufOneof.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufOneof.swift; sourceTree = "<group>"; };
+		27D5283E1DB18F36002BFB68 /* ProtobufTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufTraversal.swift; sourceTree = "<group>"; };
+		27D5283F1DB18F36002BFB68 /* ProtobufTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufTypes.swift; sourceTree = "<group>"; };
+		27D528401DB18F36002BFB68 /* ProtobufUnknown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufUnknown.swift; sourceTree = "<group>"; };
+		27D528411DB18F36002BFB68 /* source_context.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = source_context.pb.swift; sourceTree = "<group>"; };
+		27D528421DB18F36002BFB68 /* timestamp.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timestamp.pb.swift; sourceTree = "<group>"; };
+		27D528431DB18F36002BFB68 /* type.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = type.pb.swift; sourceTree = "<group>"; };
+		27D528441DB18F36002BFB68 /* Varint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Varint.swift; sourceTree = "<group>"; };
+		27D528451DB18F36002BFB68 /* WireFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireFormat.swift; sourceTree = "<group>"; };
+		27D528461DB18F36002BFB68 /* wrappers.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wrappers.pb.swift; sourceTree = "<group>"; };
+		27D528471DB18F36002BFB68 /* ZigZag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZag.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D527CE1DB1846C002BFB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D528131DB18C95002BFB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D527AF1DB183DC002BFB68 = {
+			isa = PBXGroup;
+			children = (
+				27D528211DB18F11002BFB68 /* SwiftProtobuf */,
+				27D527D81DB184A8002BFB68 /* addressbook.pb.swift */,
+				27D527D21DB1846C002BFB68 /* add_person_swift */,
+				27D528171DB18C95002BFB68 /* list_people_swift */,
+				27D527B91DB183DC002BFB68 /* Products */,
+				27D5280F1DB188C0002BFB68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27D527B91DB183DC002BFB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D527D11DB1846C002BFB68 /* add_person_swift */,
+				27D528161DB18C95002BFB68 /* list_people_swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D527D21DB1846C002BFB68 /* add_person_swift */ = {
+			isa = PBXGroup;
+			children = (
+				27D527D31DB1846C002BFB68 /* main.swift */,
+			);
+			path = add_person_swift;
+			sourceTree = "<group>";
+		};
+		27D5280F1DB188C0002BFB68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D528101DB188C0002BFB68 /* libswiftCore.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27D528171DB18C95002BFB68 /* list_people_swift */ = {
+			isa = PBXGroup;
+			children = (
+				27D528181DB18C95002BFB68 /* main.swift */,
+			);
+			path = list_people_swift;
+			sourceTree = "<group>";
+		};
+		27D528211DB18F11002BFB68 /* SwiftProtobuf */ = {
+			isa = PBXGroup;
+			children = (
+				27D528221DB18F36002BFB68 /* api.pb.swift */,
+				27D528231DB18F36002BFB68 /* duration.pb.swift */,
+				27D528241DB18F36002BFB68 /* empty.pb.swift */,
+				27D528251DB18F36002BFB68 /* field_mask.pb.swift */,
+				27D528261DB18F36002BFB68 /* FieldTag.swift */,
+				27D528271DB18F36002BFB68 /* Google_Protobuf_Any.swift */,
+				27D528281DB18F36002BFB68 /* Google_Protobuf_Duration_Extensions.swift */,
+				27D528291DB18F36002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift */,
+				27D5282A1DB18F36002BFB68 /* Google_Protobuf_Struct.swift */,
+				27D5282B1DB18F36002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift */,
+				27D5282C1DB18F36002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift */,
+				27D5282D1DB18F36002BFB68 /* ProtobufBinaryDecoding.swift */,
+				27D5282E1DB18F36002BFB68 /* ProtobufBinaryEncoding.swift */,
+				27D5282F1DB18F36002BFB68 /* ProtobufBinarySizeVisitor.swift */,
+				27D528301DB18F36002BFB68 /* ProtobufBinaryTypes.swift */,
+				27D528311DB18F36002BFB68 /* ProtobufDebugDescription.swift */,
+				27D528321DB18F36002BFB68 /* ProtobufEnum.swift */,
+				27D528331DB18F36002BFB68 /* ProtobufError.swift */,
+				27D528341DB18F36002BFB68 /* ProtobufExtensionFields.swift */,
+				27D528351DB18F36002BFB68 /* ProtobufExtensions.swift */,
+				27D528361DB18F36002BFB68 /* ProtobufFieldDecoder.swift */,
+				27D528371DB18F36002BFB68 /* ProtobufHash.swift */,
+				27D528381DB18F36002BFB68 /* ProtobufJSONDecoding.swift */,
+				27D528391DB18F36002BFB68 /* ProtobufJSONEncoding.swift */,
+				27D5283A1DB18F36002BFB68 /* ProtobufJSONTypes.swift */,
+				27D5283B1DB18F36002BFB68 /* ProtobufMessage.swift */,
+				27D5283C1DB18F36002BFB68 /* ProtobufMirror.swift */,
+				27D5283D1DB18F36002BFB68 /* ProtobufOneof.swift */,
+				27D5283E1DB18F36002BFB68 /* ProtobufTraversal.swift */,
+				27D5283F1DB18F36002BFB68 /* ProtobufTypes.swift */,
+				27D528401DB18F36002BFB68 /* ProtobufUnknown.swift */,
+				27D528411DB18F36002BFB68 /* source_context.pb.swift */,
+				27D528421DB18F36002BFB68 /* timestamp.pb.swift */,
+				27D528431DB18F36002BFB68 /* type.pb.swift */,
+				27D528441DB18F36002BFB68 /* Varint.swift */,
+				27D528451DB18F36002BFB68 /* WireFormat.swift */,
+				27D528461DB18F36002BFB68 /* wrappers.pb.swift */,
+				27D528471DB18F36002BFB68 /* ZigZag.swift */,
+			);
+			name = SwiftProtobuf;
+			path = "swift-protobuf/Sources/SwiftProtobuf";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D527D01DB1846C002BFB68 /* add_person_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D527D51DB1846C002BFB68 /* Build configuration list for PBXNativeTarget "add_person_swift" */;
+			buildPhases = (
+				27D527CD1DB1846C002BFB68 /* Sources */,
+				27D527CE1DB1846C002BFB68 /* Frameworks */,
+				27D527CF1DB1846C002BFB68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = add_person_swift;
+			productName = add_person_swift;
+			productReference = 27D527D11DB1846C002BFB68 /* add_person_swift */;
+			productType = "com.apple.product-type.tool";
+		};
+		27D528151DB18C95002BFB68 /* list_people_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D5281A1DB18C95002BFB68 /* Build configuration list for PBXNativeTarget "list_people_swift" */;
+			buildPhases = (
+				27D528121DB18C95002BFB68 /* Sources */,
+				27D528131DB18C95002BFB68 /* Frameworks */,
+				27D528141DB18C95002BFB68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = list_people_swift;
+			productName = list_people_swift;
+			productReference = 27D528161DB18C95002BFB68 /* list_people_swift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D527B01DB183DC002BFB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nathan Corvino";
+				TargetAttributes = {
+					27D527D01DB1846C002BFB68 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					27D528151DB18C95002BFB68 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 27D527B31DB183DC002BFB68 /* Build configuration list for PBXProject "swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27D527AF1DB183DC002BFB68;
+			productRefGroup = 27D527B91DB183DC002BFB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D527D01DB1846C002BFB68 /* add_person_swift */,
+				27D528151DB18C95002BFB68 /* list_people_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D527CD1DB1846C002BFB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D528AB1DB194A0002BFB68 /* ProtobufJSONEncoding.swift in Sources */,
+				27D528A71DB194A0002BFB68 /* ProtobufExtensions.swift in Sources */,
+				27D528A51DB194A0002BFB68 /* ProtobufError.swift in Sources */,
+				27D528B31DB194A0002BFB68 /* source_context.pb.swift in Sources */,
+				27D528B51DB194A0002BFB68 /* type.pb.swift in Sources */,
+				27D5289B1DB194A0002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift in Sources */,
+				27D528AC1DB194A0002BFB68 /* ProtobufJSONTypes.swift in Sources */,
+				27D528991DB194A0002BFB68 /* Google_Protobuf_Any.swift in Sources */,
+				27D528961DB194A0002BFB68 /* empty.pb.swift in Sources */,
+				27D528981DB194A0002BFB68 /* FieldTag.swift in Sources */,
+				27D527D41DB1846C002BFB68 /* main.swift in Sources */,
+				27D528A41DB194A0002BFB68 /* ProtobufEnum.swift in Sources */,
+				27D528A11DB194A0002BFB68 /* ProtobufBinarySizeVisitor.swift in Sources */,
+				27D528AD1DB194A0002BFB68 /* ProtobufMessage.swift in Sources */,
+				27D528941DB194A0002BFB68 /* api.pb.swift in Sources */,
+				27D528A01DB194A0002BFB68 /* ProtobufBinaryEncoding.swift in Sources */,
+				27D528BA1DB194A3002BFB68 /* addressbook.pb.swift in Sources */,
+				27D528B81DB194A0002BFB68 /* wrappers.pb.swift in Sources */,
+				27D5289D1DB194A0002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift in Sources */,
+				27D528B11DB194A0002BFB68 /* ProtobufTypes.swift in Sources */,
+				27D528B41DB194A0002BFB68 /* timestamp.pb.swift in Sources */,
+				27D5289A1DB194A0002BFB68 /* Google_Protobuf_Duration_Extensions.swift in Sources */,
+				27D528B91DB194A0002BFB68 /* ZigZag.swift in Sources */,
+				27D528B21DB194A0002BFB68 /* ProtobufUnknown.swift in Sources */,
+				27D5289F1DB194A0002BFB68 /* ProtobufBinaryDecoding.swift in Sources */,
+				27D528A61DB194A0002BFB68 /* ProtobufExtensionFields.swift in Sources */,
+				27D528B61DB194A0002BFB68 /* Varint.swift in Sources */,
+				27D528951DB194A0002BFB68 /* duration.pb.swift in Sources */,
+				27D5289C1DB194A0002BFB68 /* Google_Protobuf_Struct.swift in Sources */,
+				27D528971DB194A0002BFB68 /* field_mask.pb.swift in Sources */,
+				27D5289E1DB194A0002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */,
+				27D528A31DB194A0002BFB68 /* ProtobufDebugDescription.swift in Sources */,
+				27D528B01DB194A0002BFB68 /* ProtobufTraversal.swift in Sources */,
+				27D528A81DB194A0002BFB68 /* ProtobufFieldDecoder.swift in Sources */,
+				27D528AF1DB194A0002BFB68 /* ProtobufOneof.swift in Sources */,
+				27D528AA1DB194A0002BFB68 /* ProtobufJSONDecoding.swift in Sources */,
+				27D528A91DB194A0002BFB68 /* ProtobufHash.swift in Sources */,
+				27D528A21DB194A0002BFB68 /* ProtobufBinaryTypes.swift in Sources */,
+				27D528B71DB194A0002BFB68 /* WireFormat.swift in Sources */,
+				27D528AE1DB194A0002BFB68 /* ProtobufMirror.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D528121DB18C95002BFB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D528791DB18F3D002BFB68 /* ProtobufBinaryDecoding.swift in Sources */,
+				27D528771DB18F3D002BFB68 /* Google_Protobuf_Timestamp_Extensions.swift in Sources */,
+				27D528871DB18F3D002BFB68 /* ProtobufMessage.swift in Sources */,
+				27D528731DB18F3D002BFB68 /* Google_Protobuf_Any.swift in Sources */,
+				27D5281E1DB18D0C002BFB68 /* addressbook.pb.swift in Sources */,
+				27D528841DB18F3D002BFB68 /* ProtobufJSONDecoding.swift in Sources */,
+				27D528711DB18F3D002BFB68 /* field_mask.pb.swift in Sources */,
+				27D5288A1DB18F3D002BFB68 /* ProtobufTraversal.swift in Sources */,
+				27D528881DB18F3D002BFB68 /* ProtobufMirror.swift in Sources */,
+				27D5286E1DB18F3D002BFB68 /* api.pb.swift in Sources */,
+				27D5286F1DB18F3D002BFB68 /* duration.pb.swift in Sources */,
+				27D5288D1DB18F3D002BFB68 /* source_context.pb.swift in Sources */,
+				27D528921DB18F3D002BFB68 /* wrappers.pb.swift in Sources */,
+				27D528701DB18F3D002BFB68 /* empty.pb.swift in Sources */,
+				27D528911DB18F3D002BFB68 /* WireFormat.swift in Sources */,
+				27D528801DB18F3D002BFB68 /* ProtobufExtensionFields.swift in Sources */,
+				27D528821DB18F3D002BFB68 /* ProtobufFieldDecoder.swift in Sources */,
+				27D528741DB18F3D002BFB68 /* Google_Protobuf_Duration_Extensions.swift in Sources */,
+				27D5287D1DB18F3D002BFB68 /* ProtobufDebugDescription.swift in Sources */,
+				27D528781DB18F3D002BFB68 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */,
+				27D528761DB18F3D002BFB68 /* Google_Protobuf_Struct.swift in Sources */,
+				27D5288C1DB18F3D002BFB68 /* ProtobufUnknown.swift in Sources */,
+				27D5287B1DB18F3D002BFB68 /* ProtobufBinarySizeVisitor.swift in Sources */,
+				27D528891DB18F3D002BFB68 /* ProtobufOneof.swift in Sources */,
+				27D528901DB18F3D002BFB68 /* Varint.swift in Sources */,
+				27D5288B1DB18F3D002BFB68 /* ProtobufTypes.swift in Sources */,
+				27D528721DB18F3D002BFB68 /* FieldTag.swift in Sources */,
+				27D528931DB18F3D002BFB68 /* ZigZag.swift in Sources */,
+				27D5287E1DB18F3D002BFB68 /* ProtobufEnum.swift in Sources */,
+				27D5287C1DB18F3D002BFB68 /* ProtobufBinaryTypes.swift in Sources */,
+				27D528831DB18F3D002BFB68 /* ProtobufHash.swift in Sources */,
+				27D5287A1DB18F3D002BFB68 /* ProtobufBinaryEncoding.swift in Sources */,
+				27D528811DB18F3D002BFB68 /* ProtobufExtensions.swift in Sources */,
+				27D5287F1DB18F3D002BFB68 /* ProtobufError.swift in Sources */,
+				27D5288F1DB18F3D002BFB68 /* type.pb.swift in Sources */,
+				27D528861DB18F3D002BFB68 /* ProtobufJSONTypes.swift in Sources */,
+				27D528751DB18F3D002BFB68 /* Google_Protobuf_FieldMask_Extensions.swift in Sources */,
+				27D528191DB18C95002BFB68 /* main.swift in Sources */,
+				27D5288E1DB18F3D002BFB68 /* timestamp.pb.swift in Sources */,
+				27D528851DB18F3D002BFB68 /* ProtobufJSONEncoding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27D527BD1DB183DC002BFB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D527BE1DB183DC002BFB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27D527D61DB1846C002BFB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27D527D71DB1846C002BFB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27D5281B1DB18C95002BFB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27D5281C1DB18C95002BFB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D527B31DB183DC002BFB68 /* Build configuration list for PBXProject "swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D527BD1DB183DC002BFB68 /* Debug */,
+				27D527BE1DB183DC002BFB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D527D51DB1846C002BFB68 /* Build configuration list for PBXNativeTarget "add_person_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D527D61DB1846C002BFB68 /* Debug */,
+				27D527D71DB1846C002BFB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27D5281A1DB18C95002BFB68 /* Build configuration list for PBXNativeTarget "list_people_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5281B1DB18C95002BFB68 /* Debug */,
+				27D5281C1DB18C95002BFB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27D527B01DB183DC002BFB68 /* Project object */;
+}

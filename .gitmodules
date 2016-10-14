@@ -1,3 +1,6 @@
 [submodule "protobuf"]
 	path = protobuf
 	url = git@github.com:google/protobuf.git
+[submodule "swift-protobuf"]
+	path = swift-protobuf
+	url = git@github.com:apple/swift-protobuf.git

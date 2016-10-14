@@ -9,7 +9,7 @@ all: cpp objc
 # 	cc -c -Iobjc_runtime -o $@ $^
 
 cpp: add_person_cpp list_people_cpp
-objc: protobuf/objectivec add_person_objc  list_people_objc
+objc: GPBProtocolBuffers.o add_person_objc list_people_objc
 
 clean:
 	rm -f app_person_cpp list_people_cpp
